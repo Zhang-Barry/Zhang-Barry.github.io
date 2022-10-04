@@ -1,0 +1,53 @@
+
+h2{
+    margin-left: 50px;
+    color:aqua;
+}
+
+img{
+    box-shadow: 10px;
+    border-radius: 50%;
+}
+body{
+    color: black;
+    justify-content: center;
+    margin: auto;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.about-me-wrapper{
+    margin-top: 100px;  /*REMOVE THIS ON NEXT EDIT */
+    vertical-align: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    justify-content: center;
+    align-items: center;
+
+}
+
+.about-me-text{
+    padding: 4rem;
+    grid-column: span 2;
+    letter-spacing: .04em;
+    font-size: 18px;
+    position: relative;
+    margin: auto;
+    width: 650px;
+}
+
+.about-me-picture{
+    grid-column: span 1;
+    padding: 4rem;
+    margin-top: 40px;
+    width: 400px;
+}
+
+
+
+@media screen and (max-width:900px), screen and (max-height:500px) {
+    .about-me-picture { grid-column: span 3; }
+    /* .about-me-text {padding-left: 50px; margin-left: 50px;} */
+
+}
