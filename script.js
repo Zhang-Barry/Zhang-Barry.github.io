@@ -30,7 +30,7 @@ const questions = [
 const reactionMessages = ["Yay!", "尊嘟假嘟??", "Sounds fun 😊", "Yummy yummy", "So excited!"];
 const CONFIG = window.__APP_CONFIG__ || {};
 const GOOGLE_SHEET_URL = CONFIG.GOOGLE_SHEET_URL || "";
-const PASSWORD = CONFIG.PASSWORD || "";
+const PASSWORD = "mangostickyrice";
 
 const state = {
   currentIndex: 0,
