@@ -12,11 +12,11 @@ const questions = [
   {
     id: "activity",
     text: "What would you like to do?",
-    choices: ["Dessert", "Activity", "Movies", "Surprise me!"]
+    choices: ["Cook together", "Ice skating", "Museum/Gallery", "Surprise me!"]
   },
   {
     id: "food",
-    text: "I want to take you out for dinner.. what should we get?",
+    text: "I want to take you out for dinner.. what cuisine should we get?",
     choices: ["Chinese", "Japanese", "Korean", "Italian"]
   },
   {
